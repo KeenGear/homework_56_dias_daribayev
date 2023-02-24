@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="row">
+    <div class="col-md-4">
+      <img src="{{ product.image }}" alt="{{ product.name }}" class="img-fluid">
+    </div>
+    <div class="col-md-8">
+        <h1>{{ product.name }}</h1>
+        <h2>{{ product.price }}</h2>
+        <p>{{ product.description }}</p>
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteModal">
+          Delete
+        </button>
+        <a href="{% url 'product_update' slug=product.slug %}" class="btn btn-primary">Update</a>
+        <a href="{% url 'product_list' %}" class="btn btn-secondary btn-sm">Back to products</a>
+    </div>
+  </div>
+    <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Delete Product</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Are you sure you want to delete this product {{ product.name }}?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <form method="POST" action="{% url 'product_delete' product.slug %}">
+              {% csrf_token %}
+              <input type="submit" value="Delete" class="btn btn-danger">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock content %}

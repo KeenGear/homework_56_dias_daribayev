@@ -1,0 +1,80 @@
+[
+{
+    "model": "shop_app.product",
+    "pk": 5,
+    "fields": {
+        "name": "Harry Potter and the Philosopher's Stone",
+        "slug": "harry-potter-and-the-philosophers-stone",
+        "description": "Harry Potter and the Philosopher's Stone is a 1997 fantasy novel written by British author J. K. Rowling. The first novel in the Harry Potter series and Rowling's debut novel, it follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry. Harry makes close friends and a few enemies during his first year at the school and with the help of his friends, Ron Weasley and Hermione Granger, he faces an attempted comeback by the dark wizard Lord Voldemort, who killed Harry's parents, but failed to kill Harry when he was just 15 months old.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg",
+        "category": 3,
+        "qty": 20,
+        "price": "120.00"
+    }
+},
+{
+    "model": "shop_app.product",
+    "pk": 6,
+    "fields": {
+        "name": "iPhone 14 Pro",
+        "slug": "iphone-14-pro",
+        "description": "Smartphone",
+        "image": "https://store.storeimages.cdn-apple.com/8567/as-images.apple.com/is/iphone-14-pro-model-unselect-gallery-1-202209?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1660753619946",
+        "category": 2,
+        "qty": 1000,
+        "price": "1200.00"
+    }
+},
+{
+    "model": "shop_app.product",
+    "pk": 7,
+    "fields": {
+        "name": "Jacket Green",
+        "slug": "jacket-green",
+        "description": "Jacket jacket",
+        "image": "https://learnenglishkids.britishcouncil.org/sites/kids/files/styles/max_1300x1300/public/2022-09/RS1415_Jumper_col-hig.jpeg?itok=U3n_yL9j",
+        "category": 1,
+        "qty": 90,
+        "price": "20.00"
+    }
+},
+{
+    "model": "shop_app.product",
+    "pk": 8,
+    "fields": {
+        "name": "Mi Band 6",
+        "slug": "mi-band-6",
+        "description": "Some text",
+        "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/mi_band_5_6_6.jpg",
+        "category": 2,
+        "qty": 230,
+        "price": "311.00"
+    }
+},
+{
+    "model": "shop_app.product",
+    "pk": 9,
+    "fields": {
+        "name": "Asus zenbook space edition",
+        "slug": "asus-zenbook-space-edition",
+        "description": "Zenbook 14X OLED Space Edition laptop is a very special, out-of-this world laptop that commemorates the 25th anniversary of the first ASUS laptop sent into space. Zenbook 14X OLED Space Edition laptop is a prestigious special-edition design featuring stunning space-themed graphics on the lid and keyboard",
+        "image": "https://bl-i.thgim.com/public/incoming/8drd1r/article65563685.ece/alternates/FREE_730/a1.png",
+        "category": 2,
+        "qty": 2500,
+        "price": "2700.00"
+    }
+},
+{
+    "model": "shop_app.product",
+    "pk": 10,
+    "fields": {
+        "name": "Wedama Boy's Distressed Ripped",
+        "slug": "wedama-boys-distressed-ripped",
+        "description": "Jeans never die can be called a star throughout the year,as a very special kind of clothing, its main feature is a very long life, and the value of products with increasing life expectancy is constantly increasing, that the more the old jeans, in fact, should be more valuable, but also more handsome. The older the more tasted, is different from the general clothing jeans, a distinctive feature.",
+        "image": "https://m.media-amazon.com/images/I/81YerHO3QSS._AC_UX679_.jpg",
+        "category": 1,
+        "qty": 900,
+        "price": "19.20"
+    }
+}
+]
